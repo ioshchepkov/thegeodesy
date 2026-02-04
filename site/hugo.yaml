@@ -39,15 +39,15 @@ languages:
       main:
 #        - identifier: notes
 #          name: Заметки
-#          url: /ru/notes/
+#          url: ru/notes/
 #          weight: 10
 #        - identifier: blog
 #          name: Блог
-#          url: /ru/blog/
+#          url: ru/blog/
 #          weight: 20
         - identifier: about
-          name: О сайте
-          url: /ru/about/
+          name: "О сайте"
+          url: "ru/about/"
           weight: 30
     params:
 #      author: "Илья Ощепков"
@@ -57,18 +57,18 @@ languages:
         subtitle: "🧠 Теория — 💻 Вычисления —  📍 Практика"
         buttons:
 #          - name: "Заметки"
-#            url: "/ru/notes/"
+#            url: "ru/notes/"
 #          - name: "Блог"
-#            url: "/ru/blog/"
+#            url: "ru/blog/"
           - name: "О сайте"
-            url: "/ru/about/"
+            url: "ru/about/"
       socialIcons:
         - name: "Telegram"
           url: "https://t.me/thegeodesy"
         - name: "GitHub"
           url: "https://github.com/ioshchepkov/thegeodesy"
         - name: "RSS"
-          url: "/ru/index.xml"
+          url: "index.xml"
   en:
     languageName: "English"
     languageCode: "en"
@@ -85,8 +85,8 @@ languages:
 #          url: /en/blog/
 #          weight: 20
         - identifier: about
-          name: About
-          url: /en/about/
+          name: "About"
+          url: "en/about/"
           weight: 30
     params:
 #      author: "Ilya Oshchepkov"
@@ -100,9 +100,9 @@ languages:
 #          - name: "Blog"
 #            url: "/en/blog/"
           - name: "About"
-            url: "/en/about/"
+            url: "en/about/"
       socialIcons:
         - name: "GitHub"
           url: "https://github.com/ioshchepkov/thegeodesy"
         - name: "RSS"
-          url: "/en/index.xml"
+          url: "index.xml"
