@@ -97,8 +97,10 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
-
 # mypy
 .mypy_cache/
+
+# Hugo
+site/public/
+site/resources/
+.hugo_build.lock

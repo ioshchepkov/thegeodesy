@@ -1,0 +1,104 @@
+baseURL: https://thegeodesy.com/
+title: The Geodesy
+copyright: "© 2026 Ilya Oshchepkov, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+sitemap:
+  changefreq: weekly
+  priority: 0.5
+canonifyURLs: false
+
+params:
+  env: production
+  enableEmoji: true
+  defaultTheme: auto
+  displayFullLangName: true
+  ShowReadingTime: false
+  ShowBreadCrumbs: false
+  ShowPostNavLinks: true
+  ShowShareButtons: false
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: false
+  hideMeta: false
+
+defaultContentLanguage: "ru"
+defaultContentLanguageInSubdir: true
+disableDefaultLanguageRedirect: false
+languages:
+  ru:
+    languageName: "Русский"
+    languageCode: "ru"
+    weight: 1
+    contentDir: "content/ru"
+    menu:
+      main:
+#        - identifier: notes
+#          name: Заметки
+#          url: /ru/notes/
+#          weight: 10
+#        - identifier: blog
+#          name: Блог
+#          url: /ru/blog/
+#          weight: 20
+        - identifier: about
+          name: О сайте
+          url: /ru/about/
+          weight: 30
+    params:
+#      author: "Илья Ощепков"
+      profileMode:
+        enabled: true
+        title: "The Geodesy"
+        subtitle: "🧠 Теория — 💻 Вычисления —  📍 Практика"
+        buttons:
+#          - name: "Заметки"
+#            url: "/ru/notes/"
+#          - name: "Блог"
+#            url: "/ru/blog/"
+          - name: "О сайте"
+            url: "/ru/about/"
+      socialIcons:
+        - name: "Telegram"
+          url: "https://t.me/thegeodesy"
+        - name: "GitHub"
+          url: "https://github.com/ioshchepkov/thegeodesy"
+        - name: "RSS"
+          url: "/ru/index.xml"
+  en:
+    languageName: "English"
+    languageCode: "en"
+    weight: 2
+    contentDir: "content/en"
+    menu:
+      main:
+#        - identifier: notes
+#          name: Notes
+#          url: /en/notes/
+#          weight: 10
+#        - identifier: blog
+#          name: Blog
+#          url: /en/blog/
+#          weight: 20
+        - identifier: about
+          name: About
+          url: /en/about/
+          weight: 30
+    params:
+#      author: "Ilya Oshchepkov"
+      profileMode:
+        enabled: true
+        title: "The Geodesy"
+        subtitle: "🧠 Theory — 💻 Computation — 📍 Practice" #or 🛰
+        buttons:
+#          - name: "Notes"
+#            url: "/en/notes/"
+#          - name: "Blog"
+#            url: "/en/blog/"
+          - name: "About"
+            url: "/en/about/"
+      socialIcons:
+        - name: "GitHub"
+          url: "https://github.com/ioshchepkov/thegeodesy"
+        - name: "RSS"
+          url: "/en/index.xml"
