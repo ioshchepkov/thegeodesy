@@ -9,6 +9,10 @@ sitemap:
   priority: 0.5
 canonifyURLs: false
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 params:
   env: production
   enableEmoji: true
