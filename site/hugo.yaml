@@ -63,10 +63,12 @@ languages:
           - name: "О сайте"
             url: "ru/about/"
       socialIcons:
-        - name: "Telegram"
-          url: "https://t.me/thegeodesy"
         - name: "GitHub"
           url: "https://github.com/ioshchepkov/thegeodesy"
+        - name: "Email"
+          url: "mailto:contact@thegeodesy.com"
+        - name: "Telegram"
+          url: "https://t.me/thegeodesy"
         - name: "RSS"
           url: "index.xml"
   en:
@@ -104,5 +106,7 @@ languages:
       socialIcons:
         - name: "GitHub"
           url: "https://github.com/ioshchepkov/thegeodesy"
+        - name: "Email"
+          url: "mailto:contact@thegeodesy.com"
         - name: "RSS"
           url: "index.xml"

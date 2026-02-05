@@ -50,7 +50,11 @@ type: page
 
 Автор проекта --- **Илья Ощепков**.
 
-[LinkedIn](https://www.linkedin.com/in/ioshchepkov) • [GitHub](https://github.com/ioshchepkov)
+[LinkedIn](https://www.linkedin.com/in/ioshchepkov) •
+[GitHub](https://github.com/ioshchepkov) •
+
+По вопросам, связанным с проектом:
+contact@thegeodesy.com
 
 ---
 
