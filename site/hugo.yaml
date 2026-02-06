@@ -75,22 +75,26 @@ languages:
     contentDir: "content/ru"
     menu:
       main:
-#        - identifier: notes
-#          name: Заметки
-#          url: ru/notes/
-#          weight: 10
-#        - identifier: blog
-#          name: Блог
-#          url: ru/blog/
-#          weight: 20
+        - identifier: knowledge
+          name: Знания
+          url: ru/knowledge/
+          weight: 10
+        - identifier: blog
+          name: Блог
+          url: ru/blog/
+          weight: 20
+        - identifier: courses
+          name: Курсы
+          url: ru/courses/
+          weight: 30
         - identifier: search
           name: "Поиск"
           url: "ru/search/"
-          weight: 20
+          weight: 40
         - identifier: about
           name: "О сайте"
           url: "ru/about/"
-          weight: 30
+          weight: 50
     params:
 #      author: "Илья Ощепков"
       profileMode:
@@ -98,12 +102,12 @@ languages:
         title: "The Geodesy"
         subtitle: "🧠 Теория — 💻 Вычисления —  📍 Практика"
         buttons:
-#          - name: "Заметки"
-#            url: "ru/notes/"
-#          - name: "Блог"
-#            url: "ru/blog/"
-          - name: "О сайте"
-            url: "/ru/about/"
+          - name: Знания
+            url: "/ru/knowledge/"
+          - name: "Блог"
+            url: "/ru/blog/"
+          - name: "Курсы"
+            url: "/ru/courses/"
       socialIcons:
         - name: "GitHub"
           url: "https://github.com/ioshchepkov/thegeodesy"
@@ -120,22 +124,26 @@ languages:
     contentDir: "content/en"
     menu:
       main:
-#        - identifier: notes
-#          name: Notes
-#          url: /en/notes/
-#          weight: 10
-#        - identifier: blog
-#          name: Blog
-#          url: /en/blog/
-#          weight: 20
+        - identifier: knowledge
+          name: Knowledge
+          url: en/knowledge/
+          weight: 10
+        - identifier: blog
+          name: Blog
+          url: /en/blog/
+          weight: 20
+        - identifier: courses
+          name: Courses
+          url: en/courses/
+          weight: 30
         - identifier: search
           name: "Search"
           url: "en/search/"
-          weight: 20
+          weight: 40
         - identifier: about
           name: "About"
           url: "en/about/"
-          weight: 30
+          weight: 50
     params:
 #      author: "Ilya Oshchepkov"
       profileMode:
@@ -143,12 +151,12 @@ languages:
         title: "The Geodesy"
         subtitle: "🧠 Theory — 💻 Computation — 📍 Practice" #or 🛰
         buttons:
-#          - name: "Notes"
-#            url: "/en/notes/"
-#          - name: "Blog"
-#            url: "/en/blog/"
-          - name: "About"
-            url: "/en/about/"
+          - name: Knowledge
+            url: "/en/knowledge/"
+          - name: "Blog"
+            url: "/en/blog/"
+          - name: Courses
+            url: "/en/courses/"
       socialIcons:
         - name: "GitHub"
           url: "https://github.com/ioshchepkov/thegeodesy"

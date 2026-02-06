@@ -3,6 +3,7 @@ title: О сайте
 type: page
 params:
   ShowToc: false
+  hideMeta: true
 ---
 
 **The Geodesy** --- проект о геодезии как науке.

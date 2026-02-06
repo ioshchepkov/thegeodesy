@@ -3,6 +3,7 @@ title: About
 type: page
 params:
   ShowToc: false
+  hideMeta: true
 ---
 
 **The Geodesy** --- a project on geodesy as a science.
