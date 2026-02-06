@@ -13,6 +13,23 @@ caches:
   images:
     dir: :cacheDir/images
 
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - '\['
+            - '\]'
+          - - $$
+            - $$
+          inline:
+          - - '\('
+            - '\)'
+          - - $
+            - $
+        enable: true
+
 params:
   env: production
   enableEmoji: true
@@ -25,6 +42,7 @@ params:
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: false
   hideMeta: false
+  math: true
 
 defaultContentLanguage: "ru"
 defaultContentLanguageInSubdir: true
