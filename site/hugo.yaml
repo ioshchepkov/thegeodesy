@@ -29,6 +29,9 @@ markup:
           - - $
             - $
         enable: true
+  highlight:
+    noClasses: false
+    lineNos: true
 
 params:
   env: production
@@ -43,6 +46,8 @@ params:
   ShowRssButtonInSectionTermList: false
   hideMeta: false
   math: true
+  assets:
+    disableHLJS: true
 
 defaultContentLanguage: "ru"
 defaultContentLanguageInSubdir: true
