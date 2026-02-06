@@ -1,6 +1,8 @@
 ---
 title: About
 type: page
+params:
+  ShowToc: false
 ---
 
 **The Geodesy** --- a project on geodesy as a science.
@@ -55,7 +57,7 @@ and does not aim at exhaustive coverage of the subject.
 The project is authored by **Ilya Oshchepkov**.
 
 [LinkedIn](https://www.linkedin.com/in/ioshchepkov) •
-[GitHub](https://github.com/ioshchepkov) •
+[GitHub](https://github.com/ioshchepkov)
 
 For questions related to the project:
 contact@thegeodesy.com

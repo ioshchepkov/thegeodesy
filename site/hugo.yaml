@@ -44,8 +44,9 @@ params:
   enableEmoji: true
   defaultTheme: auto
   displayFullLangName: true
-  ShowReadingTime: false
-  ShowBreadCrumbs: false
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  showToc: true
   ShowPostNavLinks: true
   ShowShareButtons: false
   ShowCodeCopyButtons: true

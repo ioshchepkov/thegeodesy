@@ -1,6 +1,8 @@
 ---
 title: О сайте
 type: page
+params:
+  ShowToc: false
 ---
 
 **The Geodesy** --- проект о геодезии как науке.
@@ -51,7 +53,7 @@ type: page
 Автор проекта --- **Илья Ощепков**.
 
 [LinkedIn](https://www.linkedin.com/in/ioshchepkov) •
-[GitHub](https://github.com/ioshchepkov) •
+[GitHub](https://github.com/ioshchepkov)
 
 По вопросам, связанным с проектом:
 contact@thegeodesy.com
