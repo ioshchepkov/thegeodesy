@@ -13,6 +13,12 @@ caches:
   images:
     dir: :cacheDir/images
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 markup:
   goldmark:
     extensions:
@@ -48,6 +54,14 @@ params:
   math: true
   assets:
     disableHLJS: true
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ['title', 'permalink', 'summary', 'content']
 
 defaultContentLanguage: "ru"
 defaultContentLanguageInSubdir: true
@@ -68,6 +82,10 @@ languages:
 #          name: Блог
 #          url: ru/blog/
 #          weight: 20
+        - identifier: search
+          name: "Поиск"
+          url: "ru/search/"
+          weight: 20
         - identifier: about
           name: "О сайте"
           url: "ru/about/"
@@ -109,6 +127,10 @@ languages:
 #          name: Blog
 #          url: /en/blog/
 #          weight: 20
+        - identifier: search
+          name: "Search"
+          url: "en/search/"
+          weight: 20
         - identifier: about
           name: "About"
           url: "en/about/"
