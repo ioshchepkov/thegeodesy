@@ -1,5 +1,5 @@
 ---
-title: О сайте
+title: О проекте
 type: page
 params:
   ShowToc: false

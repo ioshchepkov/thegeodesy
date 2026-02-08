@@ -96,7 +96,7 @@ languages:
           url: "ru/search/"
           weight: 40
         - identifier: about
-          name: "О сайте"
+          name: "О проекте"
           url: "ru/about/"
           weight: 50
     params:
