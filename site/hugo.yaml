@@ -3,6 +3,10 @@ title: The Geodesy
 copyright: "© 2026 Ilya Oshchepkov, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
 theme: ["PaperMod"]
 
+taxonomies:
+  topic: topics
+  tag: tags
+
 enableRobotsTXT: true
 sitemap:
   changefreq: weekly
