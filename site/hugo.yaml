@@ -1,6 +1,6 @@
 baseURL: https://thegeodesy.com/
 title: The Geodesy
-copyright: "© 2026 Ilya Oshchepkov, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+copyright: "© 2026 Ilya Oshchepkov, [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)"
 theme: ["PaperMod"]
 
 taxonomies:
@@ -23,25 +23,39 @@ outputs:
     - RSS
     - JSON
 
+  section:
+    - HTML
+    - RSS
+
+  taxonomy:
+    - HTML
+
+  term:
+    - HTML
+
 markup:
   goldmark:
     extensions:
       passthrough:
         delimiters:
           block:
-          - - '\['
-            - '\]'
-          - - $$
-            - $$
+            - - '\['
+              - '\]'
+            - - $$
+              - $$
           inline:
-          - - '\('
-            - '\)'
-          - - $
-            - $
+            - - '\('
+              - '\)'
+            - - $
+              - $
         enable: true
   highlight:
     noClasses: false
     lineNos: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+    ordered: false
 
 params:
   env: production
@@ -51,10 +65,12 @@ params:
   ShowReadingTime: true
   ShowBreadCrumbs: true
   showToc: true
+  tocopen: false
+  UseHugoToc: true
   ShowPostNavLinks: true
   ShowShareButtons: false
   ShowCodeCopyButtons: true
-  ShowRssButtonInSectionTermList: false
+  ShowRssButtonInSectionTermList: true
   hideMeta: false
   math: true
   assets:
@@ -66,17 +82,16 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ['title', 'permalink', 'summary', 'content']
+    keys: ["title", "permalink", "summary", "content"]
 
 defaultContentLanguage: "ru"
 defaultContentLanguageInSubdir: true
 disableDefaultLanguageRedirect: false
 languages:
   ru:
-    languageName: "Русский"
-    languageCode: "ru"
+    label: "Русский"
+    locale: "ru"
     weight: 1
-    contentDir: "content/ru"
     menu:
       main:
         - identifier: knowledge
@@ -87,10 +102,6 @@ languages:
           name: Блог
           url: ru/blog/
           weight: 20
-        - identifier: courses
-          name: Курсы
-          url: ru/courses/
-          weight: 30
         - identifier: search
           name: "Поиск"
           url: "ru/search/"
@@ -100,7 +111,7 @@ languages:
           url: "ru/about/"
           weight: 50
     params:
-#      author: "Илья Ощепков"
+      #      author: "Илья Ощепков"
       profileMode:
         enabled: true
         title: "The Geodesy"
@@ -110,8 +121,6 @@ languages:
             url: "/ru/knowledge/"
           - name: "Блог"
             url: "/ru/blog/"
-          - name: "Курсы"
-            url: "/ru/courses/"
       socialIcons:
         - name: "GitHub"
           url: "https://github.com/ioshchepkov/thegeodesy"
@@ -122,10 +131,9 @@ languages:
         - name: "RSS"
           url: "index.xml"
   en:
-    languageName: "English"
-    languageCode: "en"
+    label: "English"
+    locale: "en"
     weight: 2
-    contentDir: "content/en"
     menu:
       main:
         - identifier: knowledge
@@ -136,10 +144,6 @@ languages:
           name: Blog
           url: /en/blog/
           weight: 20
-        - identifier: courses
-          name: Courses
-          url: en/courses/
-          weight: 30
         - identifier: search
           name: "Search"
           url: "en/search/"
@@ -149,7 +153,7 @@ languages:
           url: "en/about/"
           weight: 50
     params:
-#      author: "Ilya Oshchepkov"
+      #      author: "Ilya Oshchepkov"
       profileMode:
         enabled: true
         title: "The Geodesy"
@@ -159,8 +163,6 @@ languages:
             url: "/en/knowledge/"
           - name: "Blog"
             url: "/en/blog/"
-          - name: Courses
-            url: "/en/courses/"
       socialIcons:
         - name: "GitHub"
           url: "https://github.com/ioshchepkov/thegeodesy"

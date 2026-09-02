@@ -51,6 +51,9 @@ and the focus may shift over time.
 The project’s content is shaped by the author’s perspective
 and does not aim at exhaustive coverage of the subject.
 
+This site is a personal project and does not represent
+the views or positions of any organizations.
+
 ---
 
 ## About the author
@@ -65,14 +68,10 @@ contact@thegeodesy.com
 
 ---
 
-## Disclaimer
-
-This site is a personal project and does not represent
-the views or positions of any organizations.
-
----
-
 ## Use of materials
 
 Unless stated otherwise, the materials on this site are licensed under 
-**Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+[**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**](https://creativecommons.org/licenses/by-nc/4.0/).
+
+Code examples and snippets are licensed under the
+[**MIT License**](https://opensource.org/license/mit/).
