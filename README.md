@@ -1,11 +1,12 @@
-# The Geodesy
+# The Geodesy website
 
-**Theory. Computation. Practice.**
+🧠 Theory — 💻 Computation — 📍 Practice
 
 **The Geodesy** is an open project on geodesy as a science.
 
-It reflects an author’s perspective
-and combines notes, blog posts, and computational materials —
-from theoretical foundations to practical measurements.
+It reflects an author’s perspective and brings together theory, scientific
+software, and computational work — from fundamental concepts to practical
+applications.
 
-🌍 Website: https://thegeodesy.com
+🌍 This repository contains the source and content for
+[thegeodesy.com](https://thegeodesy.com).
