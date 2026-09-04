@@ -101,6 +101,6 @@ venv.bak/
 .mypy_cache/
 
 # Hugo
-site/public/
-site/resources/
+public/
+resources/
 .hugo_build.lock
