@@ -75,6 +75,7 @@ params:
   math: true
   assets:
     disableHLJS: true
+    favicon: /favicon.svg
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -114,6 +115,10 @@ languages:
       #      author: "Илья Ощепков"
       profileMode:
         enabled: true
+        imageUrl: /images/logo.svg
+        imageTitle: "Логотип The Geodesy"
+        imageWidth: 240
+        imageHeight: 240
         title: "The Geodesy"
         subtitle: "🧠 Теория — 💻 Вычисления —  📍 Практика"
         buttons:
@@ -156,6 +161,10 @@ languages:
       #      author: "Ilya Oshchepkov"
       profileMode:
         enabled: true
+        imageUrl: /images/logo.svg
+        imageTitle: "The Geodesy logo"
+        imageWidth: 240
+        imageHeight: 240
         title: "The Geodesy"
         subtitle: "🧠 Theory — 💻 Computation — 📍 Practice" #or 🛰
         buttons:
