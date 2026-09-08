@@ -8,13 +8,16 @@ params:
 
 **The Geodesy** --- a project on geodesy as a science.
 
-This is a public knowledge base and blog on geodesy and related fields,
+The project explores geodesy and related fields,
 including mathematics, physics, astronomy, scientific computing,
 and Earth sciences.
 
 The project covers the full path of geodetic knowledge ---
 from theory, through computation, to practical measurements
 and their interpretation.
+
+It also explores how geodesy develops through research and education,
+and how science policy and institutions shape the discipline.
 
 ## Why *The Geodesy*?
 

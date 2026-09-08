@@ -2,6 +2,5 @@
 title: "Blog"
 ---
 
-Computational experiments, working notes,
-and observations related to educational,
-academic, and institutional aspects of geodesy.
+Geodesy in theory and practice — from fundamental concepts
+and computational methods to research, education, policy, and institutions.
